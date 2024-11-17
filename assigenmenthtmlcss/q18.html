@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>18. For a tech review website, create a form that allows users to rate a product and leave a
+        review.</p>
+    <form action="sumbit" >
+
+        <label for="productname">Product:</label>
+        <input type="text" name="productname" id="productname" required>
+        <br><br>
+    <label for="rating">Rating:</label>
+  <select name="rating" id="rating">
+    <option value="5"> 5 Stars </option>
+    <option value="4"> 4 Stars </option>
+    <option value="3"> 3 Stars </option>
+    <option value="2"> 2 Stars </option>
+    <option value="1"> 1 Stars </option>
+    
+  </select>
+  
+
+
+<br>
+
+
+        <br><label for="specialtext">Your Review :</label>
+        <textarea name="specialtext" id="specialtext"></textarea>
+     <br> <br>
+     <button type="submit">Submit Review</button>
+    </form>
+</body>
+</html>

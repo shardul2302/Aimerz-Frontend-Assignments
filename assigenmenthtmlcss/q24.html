@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h2>24. You're building a website for a local weather service. Create an HTML structure
+        that embeds both a live radar map (using an iframe) and a current conditions display
+        (using SVG for a simple weather icon).</h2> -->
+    <h1>Local Weather</h1> 
+    <p>  <strong>live Radar:</strong> this is to predict what Weather will be look like in the upcoming hours</p>
+    
+    <div>
+        <iframe src="https://www.weatherandradar.in/weather-forecast?date=2024-11-17" frameborder="100" width="600" height="300"></iframe>
+
+
+    </div>
+    <h2>Current condition </h2>
+    <img src="data:image/png;base64,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" width="55" height="55" alt="sun imgnotfound">
+    
+    <p> Temperature:72 F <br> Precipitation: 10% <br>
+        Humidity: 76% <br>
+        Wind: 6 km/h</p>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+*{
+  background-color: lightblue;
+ 
+  padding: 0px;
+  box-sizing: border-box;
+
+
+}
+header{
+    color: deepskyblue;
+    text-align: center;
+    background-color: red;
+}
